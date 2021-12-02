@@ -1,9 +1,9 @@
 site:
-  title: Satisfactory Modding Documentation
-  start_page: satisfactory-modding::index.adoc
+  title: Dead by Daylight Modding Documentation
+  start_page: deadbydaylight-modding::index.adoc
 
   ## Used for prod
-  url: https://docs.ficsit.app
+  url: https://modbydaylight.com
 
   ## Used for dev
   #url: http://localhost:8000
@@ -11,7 +11,7 @@ site:
 content:
   sources:
     ## Used for prod
-    - url: https://github.com/satisfactorymodding/Documentation.git
+    - url: https://github.com/ModByDaylight/Documentation.git
       branches: master, v2.2.1, v2.1.1, v2.0.0, v1.0.2
       edit_url: '{web_url}/blob/{refname}/{path}'
 

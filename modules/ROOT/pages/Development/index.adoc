@@ -1,27 +1,17 @@
 = Development
 
-If you'd like to make your own mod, this section of the docs is for you!
+If you’d like to make your own mod, this section of the docs is for you!
 
-Here you can find information regarding making mods and getting your development environment up and running.
-Check out the subcategories on the left to get started.
+Here you can find information regarding making mods and getting your development environment up and running. Check out the subcategories on the left to get started.
 
-If you're just looking to play Satisfactory with mods, check out how to install mods xref:index.adoc#_for_users[here] instead.
+If you’re just looking to play Dead by Daylight with mods, check out how to install mods xref:ModInstallation.adoc[here] instead.
 
 == Resources
 
-Below is a list of some good resources about making mods for SF, UE4, C++ and 3D Modeling. Please contact us if you know of other resources that should be added to this list.
-
-- https://www.youtube.com/channel/UCOVfF7PfLbRdVEm0hONTrNQ[Mathew Wadstein] 
-+
-A good YouTube Channel showing a more in-depth look at features of UE4 (BP only).
-- https://www.youtube.com/channel/UCz-eYJAUgSE-mqzKtit7m9g[Virtus Learning Hub]
-+
-A "general" tutorial series channel for UE game development (also covers some C++)
-- https://www.youtube.com/channel/UCYoV5-xnSC2BGseQ_nHWufw[Miles Nocte's Channel]
-+
-A series of SF modding tutorials made by MilesNocte, a member of our community.
-**As of SML 3.0.0, these tutorials are partially out of date, but many of the concepts will still carry over.**
-If you get stuck in the video tutorials, return here and follow these guides instead.
-- http://academy.unrealengine.com/[Unreal Engine Academy]
-+
-A neat learning platform made by Epic Games for learning Unreal Engine.
+- https://www.unrealengine.com/en-US/download[Unreal Engine] - Used to cook assets that the game can read.
+- https://www.gildor.org/en/projects/umodel[Umodel] - Used to view and export textures, models, animations, and more.
+- https://github.com/iAmAsval/FModel[FModel] - Beginner-friendly and open-source software for data-mining games made with Unreal Engine.
+- https://www.blender.org/download/[Blender] - Open source 3d modeling program.
+- https://github.com/Befzz/blender3d_import_psk_psa[Psk/Psa Import/Export] - Used to import psk & psa files into Blender.
+- https://mh-nexus.de/en/hxd/[Hxd] - Hex editor used for raw editing of files.
+- https://cdn.discordapp.com/attachments/877980209083723797/908631102703403018/AssetRegistryHelper.zip[Asset Registry Helper] - A tool by @Archengius#8490 that allows you to merge asset registry files together.

@@ -1,0 +1,17 @@
+= Development
+
+If you’d like to make your own mod, this section of the docs is for you!
+
+Here you can find information regarding making mods and getting your development environment up and running. Check out the subcategories on the left to get started.
+
+If you’re just looking to play Dead by Daylight with mods, check out how to install mods xref:ModInstallation.adoc[here] instead.
+
+== Resources
+
+- https://www.unrealengine.com/en-US/download[Unreal Engine] - Used to cook assets that the game can read.
+- https://www.gildor.org/en/projects/umodel[Umodel] - Used to view and export textures, models, animations, and more.
+- https://github.com/iAmAsval/FModel[FModel] - Beginner-friendly and open-source software for data-mining games made with Unreal Engine.
+- https://www.blender.org/download/[Blender] - Open source 3d modeling program.
+- https://github.com/Befzz/blender3d_import_psk_psa[Psk/Psa Import/Export] - Used to import psk & psa files into Blender.
+- https://mh-nexus.de/en/hxd/[Hxd] - Hex editor used for raw editing of files.
+- https://cdn.discordapp.com/attachments/877980209083723797/908631102703403018/AssetRegistryHelper.zip[Asset Registry Helper] - A tool by @Archengius#8490 that allows you to merge asset registry files together.

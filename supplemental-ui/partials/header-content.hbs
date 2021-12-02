@@ -14,18 +14,16 @@
         <div id="topbar-nav" class="navbar-menu">
             <div class="navbar-end">
                 <div class="navbar-item has-dropdown is-hoverable">
-                    <div class="navbar-link">Satisfactory Modding</div>
+                    <div class="navbar-link">Dead by Daylight Modding</div>
                     <div class="navbar-dropdown">
-                        <a class="navbar-item" href="https://github.com/satisfactorymodding">GitHub</a>
-                        <a class="navbar-item" href="https://github.com/satisfactorymodding/SatisfactoryModLoader">Satisfactory Mod Loader</a>
-                        <a class="navbar-item" href="https://ficsit.app">Satisfactory Mod Repository</a>
+                        <a class="navbar-item" href="https://github.com/ModByDaylight">GitHub</a>
+                        <a class="navbar-item" href="https://gamebanana.com/games/7553">Dead by Daylight Mods</a>
                     </div>
                 </div>
                 <div class="navbar-item has-dropdown is-hoverable">
                     <div class="navbar-link">Community</div>
                     <div class="navbar-dropdown is-right">
-                        <a class="navbar-item" href="https://discord.gg/xkVJ73E">Discord</a>
-                        <a class="navbar-item" href="https://forums.ficsit.app">Forums</a>
+                        <a class="navbar-item" href="https://discord.gg/mbd">Discord</a>
                     </div>
                 </div>
             </div>
@@ -33,19 +31,19 @@
     </nav>
     <div id="old-version-warning" class="version-warning hidden">
         You are currently viewing an <strong>outdated</strong> version of the docs!<br>
-        <i><a href="https://docs.ficsit.app/satisfactory-modding/latest/index.html">Click here to view the latest.</a></i>
+        <i><a href="https://modbydaylight.com/deadbydaylight-modding/latest/index.html">Click here to view the latest.</a></i>
     </div>
     <div id="dev-version-warning" class="version-warning hidden">
         You are currently viewing the <strong>in-development</strong> version of the docs!<br>
         Information here could be inconsistent with other pages,
         or apply to features that have not been released yet.<br>
-        <i><a href="https://docs.ficsit.app/satisfactory-modding/latest/index.html">Click here to view the stable docs.</a></i>
+        <i><a href="https://modbydaylight.com/deadbydaylight-modding/latest/index.html">Click here to view the stable docs.</a></i>
     </div>
     <script>
         var pageLocation = window.location.href;
-        if(pageLocation.includes("satisfactory-modding") && !pageLocation.includes("latest")) {
+        if(pageLocation.includes("deadbydaylight-modding") && !pageLocation.includes("latest")) {
             document.querySelector("#old-version-warning").classList.remove("hidden");
-        } else if (pageLocation.includes("satisfactory-modding") && pageLocation.includes("docs-dev")){
+        } else if (pageLocation.includes("deadbydaylight-modding") && pageLocation.includes("docs-dev")){
             document.querySelector("#dev-version-warning").classList.remove("hidden");
         }
     </script>
