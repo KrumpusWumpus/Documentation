@@ -1,5 +1,5 @@
-name: satisfactory-modding
-title: Satisfactory Modding Documentation
+name: deadbydaylight-modding
+title: Dead by Daylight Modding Documentation
 version: latest
 nav:
   - modules/ROOT/nav.adoc

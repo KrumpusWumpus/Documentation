@@ -2,7 +2,7 @@
   "name": "documentation",
   "version": "1.0.0",
   "license": "UNLICENSED",
-  "repository": "https://github.com/satisfactorymodding/Documentation.git",
+  "repository": "https://github.com/ModByDaylight/Documentation.git",
   "scripts": {
     "build": "antora antora-playbook.yml --clean --fetch",
     "build:ci": "antora antora-playbook-ci.yml --clean --fetch",

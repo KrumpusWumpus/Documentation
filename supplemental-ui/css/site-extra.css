@@ -9,17 +9,17 @@
 
 html .algolia-autocomplete .ds-dropdown-menu [class^=ds-dataset-] {
     max-height: calc(100vh - 3.25rem);
-    background: #303030;
-    border: 1px solid #424242;
+    background: #212121;
+    border: 1px solid #212121;
 }
 
 html .algolia-autocomplete .algolia-docsearch-suggestion {
-    background: #303030;
+    background: #212121;
 }
 
 html .algolia-autocomplete .algolia-docsearch-suggestion--category-header,
 html .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column {
-    color: #ff9800;
+    color: #5588ff;
 }
 
 html .algolia-autocomplete .algolia-docsearch-suggestion--title,
@@ -38,7 +38,7 @@ html .algolia-autocomplete .algolia-docsearch-suggestion--text .algolia-docsearc
 }
 
 html .algolia-autocomplete .ds-dropdown-menu:before {
-    background: #303030;
+    background: #212121;
 }
 
 @media screen and (max-width: 768px) {
@@ -67,7 +67,7 @@ html .algolia-autocomplete .ds-dropdown-menu:before {
 }
 
 #search-input {
-    background: #424242;
+    background: #212121;
     color: #ffffff;
     font-family: inherit;
     font-size: 0.95rem;
@@ -108,12 +108,12 @@ iframe.blueprint + div:after {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    background: orangered;
-    color: #6A0E0E;
+    background: #f8312f;
+    color: #000000;
 }
 
 .version-warning a {
-    color: #6A0E0E;
+    color: #000000;
 }
 
 .hidden {

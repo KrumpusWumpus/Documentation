@@ -1,6 +1,6 @@
 site:
-  title: Satisfactory Modding Documentation
-  start_page: satisfactory-modding::index.adoc
+  title: Dead by Daylight Modding Documentation
+  start_page: deadbydaylight-modding::index.adoc
   url: http://localhost:8000
 
 content:
