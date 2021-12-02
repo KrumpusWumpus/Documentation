@@ -1,0 +1,30 @@
+= Dead by Daylight Modding Documentation
+
+== Basics
+
+Welcome to Mod By Daylight, the official modding community for Dead by Daylight!
+
+Here you can find lots of information regarding modding https://deadbydaylight.com/[Dead by Daylight], an asymmetrical multiplayer (4vs1) horror game by https://www.bhvr.com/[Behaviour Interactive].
+
+In this page, we will provide some surface level information for both mod users and developers.
+
+[NOTE]
+====
+If you want to take part in our community, we recommend you join our https://discord.gg/mbd[Discord Server].
+====
+
+== Getting Started
+
+If you'd like to get started using mods, this section is for you.
+
+=== Dead by Daylight Private Server
+
+The Dead by Daylight Private Server is a modified version of the live game which is 100% offline from the live servers and has modding support. You are able to mod the latest version of the game with no limitations and play matches with others playing. Directions for setting up the Private Server can be found xref:PrivateServer.adoc[here].
+
+=== Installing Mods
+
+We highly recommend using pak files when installing mods, as it makes using mods that much easier. Directions for installing mods can be found xref:ModInstallation.adoc[here].
+
+=== Creating Mods
+
+If you're looking to create your own mods, we suggest you check out our xref:Development/ModdingGuides/index.adoc[Modding Guides].
