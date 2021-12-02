@@ -1,12 +1,4 @@
-# Satisfactory Modding Documentation
-
-Documentation for Satisfactory Mod Loader (SML) and Satisfactory modding.
-Master branch is live on https://docs.ficsit.app/.
-Please contact us on the
-[Satisfactory Modding Discord Server](https://discord.gg/xkVJ73E) (preferred) or the [Ficsit.app forums](https://forums.ficsit.app/) (not checked very often)
-with questions and suggestions.
-
-We attempt to use [Semantic Line Break format](https://sembr.org/) in the source files, but this is only loosely followed.
+# Dead by Daylight Modding Documentation
 
 Pull requests should target the `dev` branch.
 
