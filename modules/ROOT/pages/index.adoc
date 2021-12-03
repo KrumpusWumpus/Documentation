@@ -19,11 +19,11 @@ If you'd like to get started using mods, this section is for you.
 
 === Dead by Daylight Private Server
 
-The Dead by Daylight Private Server is a modified version of the live game which is 100% offline from the live servers and has modding support. You are able to mod the latest version of the game with no limitations and play matches with others playing. Directions for setting up the Private Server can be found xref:PrivateServer.adoc[here].
+The Dead by Daylight Private Server is a modified version of the live game which is 100% offline from the live servers and has modding support. You are able to mod the latest version of the game with no limitations and play matches with others playing. Directions for setting up the Private Server can be found xref:PrivateServer/index.adoc[here].
 
 === Installing Mods
 
-We highly recommend using pak files when installing mods, as it makes using mods that much easier. Directions for installing mods can be found xref:ModInstallation.adoc[here].
+We highly recommend using pak files when installing mods, as it makes using mods that much easier. Directions for installing mods can be found xref:PrivateServer/ModInstallation.adoc[here].
 
 === Creating Mods
 
