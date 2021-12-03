@@ -1,6 +1,6 @@
 = Custom Sounds Guide
 
-This guide will show you how to replace existing audio files in Dead by Daylight, such as sound effects and music.
+This guide will show you how to replace existing audio files in Dead By Daylight, such as sound effects and music.
 
 *Prerequisites* +
 ▪︎ https://www.audiokinetic.com/download/[Wwise Launcher] - Creating .wem files from audio files +
@@ -34,7 +34,7 @@ image:https://images-ext-1.discordapp.net/external/-b7ueZk-dNTsoibaQyyzDuY0_G13n
 
 == Part 3: Finding and Replacing Audio (.wem files)
 
-*1)* Open your Dead by Daylight audio folder. (DeadByDaylight\Content\WwiseAudio\Windows)
+*1)* Open your Dead By Daylight audio folder. (DeadByDaylight\Content\WwiseAudio\Windows)
 
 image:https://images-ext-1.discordapp.net/external/03tL3TQXmhPcCK1WLHY2USO70xdYv3Ir5nMlkYyrjl4/https/media.discordapp.net/attachments/834873477500371004/844330465371488296/unknown.png[image]
 
@@ -47,7 +47,7 @@ For example, you would search for lobby_survivor if you wanted to replace the Su
    <Path>SFX\Music\mu_menu_lobby_survivor_0BC91DCF.wem</Path>
 </File>
 ```
-*4)* Copy the File Id of the sound and search for it in the Dead by Daylight audio folder.
+*4)* Copy the File Id of the sound and search for it in the Dead By Daylight audio folder.
 
 image:https://images-ext-1.discordapp.net/external/cuez70FbJq-u9mRs7bXpuBmrYhcZNwTovsdOCAjPrzI/https/media.discordapp.net/attachments/834873477500371004/844330523769176084/unknown.png[image]
 
@@ -55,10 +55,10 @@ image:https://images-ext-1.discordapp.net/external/cuez70FbJq-u9mRs7bXpuBmrYhcZN
 
 image:https://images-ext-1.discordapp.net/external/HRG_jwoAvbhiGFeRBCEusVpLKJPvwarlopRZO9NaUzk/https/media.discordapp.net/attachments/834873477500371004/844330584510562325/unknown.png[image]
 
-*6)* Drag the .wem file into the Dead by Daylight audio folder and replace all.
+*6)* Drag the .wem file into the Dead By Daylight audio folder and replace all.
 
 == Part 4: Finding and Replacing Audio (.bnk files)
-*1)* Open your Dead by Daylight audio folder. (DeadByDaylight\Content\WwiseAudio\Windows) +
+*1)* Open your Dead By Daylight audio folder. (DeadByDaylight\Content\WwiseAudio\Windows) +
 *2)* Drag and drop the .bnk file you want to edit into RExplorer. +
 *3)* A list of all .wem files will be previewed after opening a .bnk file.
 
@@ -71,4 +71,4 @@ Clicking on a .wem file in RExplorer will play a preview of the audio. The lengt
 *5)* Drag and drop the .wem file you want to replace with the audio you previewed in RExplorer and press Enter. +
 *6)* Search for the File Id of the .wem file you previewed in RExplorer in the list of .wem files in BnkEditor. +
 *7)* Enter the index of the .wem file you want to replace. A list of indexes and File IDs will be shown in the console. +
-*8)* Your .bnk file with the edited .wem will be exported where the program exe is located. Drag the .bnk file into the Dead by Daylight audio folder and replace all.
+*8)* Your .bnk file with the edited .wem will be exported where the program exe is located. Drag the .bnk file into the Dead By Daylight audio folder and replace all.

@@ -1,6 +1,6 @@
 = Custom Cosmetics Guide
 
-This guide will show you how you can add your own customization items to Dead by Daylight with the use of data tables. 
+This guide will show you how you can add your own customization items to Dead By Daylight with the use of data tables. 
 
 [NOTE]
 ====

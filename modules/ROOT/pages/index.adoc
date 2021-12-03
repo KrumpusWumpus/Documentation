@@ -1,10 +1,10 @@
-= Dead by Daylight Modding Documentation
+= Dead By Daylight Modding Documentation
 
 == Basics
 
-Welcome to Mod By Daylight, the official modding community for Dead by Daylight!
+Welcome to Mod By Daylight, the official modding community for Dead By Daylight!
 
-Here you can find lots of information regarding modding https://deadbydaylight.com/[Dead by Daylight], an asymmetrical multiplayer (4vs1) horror game by https://www.bhvr.com/[Behaviour Interactive].
+Here you can find lots of information regarding modding https://deadbydaylight.com/[Dead By Daylight], an asymmetrical multiplayer (4vs1) horror game by https://www.bhvr.com/[Behaviour Interactive].
 
 In this page, we will provide some surface level information for both mod users and developers.
 
@@ -17,9 +17,9 @@ If you want to take part in our community, we recommend you join our https://dis
 
 If you'd like to get started using mods, this section is for you.
 
-=== Dead by Daylight Private Server
+=== Dead By Daylight Private Server
 
-The Dead by Daylight Private Server is a modified version of the live game which is 100% offline from the live servers and has modding support. You are able to mod the latest version of the game with no limitations and play matches with others playing. Directions for setting up the Private Server can be found xref:PrivateServer/index.adoc[here].
+The Dead By Daylight Private Server is a modified version of the live game which is 100% offline from the live servers and has modding support. You are able to mod the latest version of the game with no limitations and play matches with others playing. Directions for setting up the Private Server can be found xref:PrivateServer/index.adoc[here].
 
 === Installing Mods
 

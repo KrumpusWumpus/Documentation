@@ -1,4 +1,4 @@
-# Dead by Daylight Modding Documentation
+# Dead By Daylight Modding Documentation
 
 Pull requests should target the `dev` branch.
 

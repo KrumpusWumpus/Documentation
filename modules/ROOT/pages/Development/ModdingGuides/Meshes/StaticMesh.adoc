@@ -7,10 +7,10 @@
 ▪︎ https://www.unrealengine.com/en-US/download[Unreal Engine] (4.25.4 for Live, 4.21.2 for Dev Build)
 
 
-== Part 1: Exporting from Dead by Daylight
+== Part 1: Exporting from Dead By Daylight
 
 *1)* Open Umodel. +
-*2)* Set the path to game files as the base of your Dead by Daylight files. +
+*2)* Set the path to game files as the base of your Dead By Daylight files. +
 *3)* Check override game detection and select Unreal engine 4, Unreal engine 4.25.4 for Live, 4.21.2 for Dev Build. +
 *4)* Leave all other settings at default and select OK.
 
