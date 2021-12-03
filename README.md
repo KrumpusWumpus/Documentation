@@ -32,20 +32,11 @@ yarn install
 
 ### Building
 
-To build the docs for SML and all other hosted mods (slow):
+To build the docs:
 
 ```bash
 yarn run build
 ```
 
-To build the docs for just SML, download an alternate
-[Antora playbook file](https://cdn.discordapp.com/attachments/629385164115673108/689142080043352073/antora-playbook-dev.yml)
-and put it in the root folder of the repo.
 
-Then, run the following:
-
-```bash
-yarn run build:dev
-```
-
-The output HTML files for both commands can be found in `\build\site`.
+The output HTML files can be found in `\build\site`.
