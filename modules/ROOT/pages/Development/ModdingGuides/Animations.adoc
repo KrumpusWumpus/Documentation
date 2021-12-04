@@ -112,11 +112,7 @@ The mesh and physics asset can be ignored, you dont have to do anything with the
 .Opening the animation file lets you preview it in Unreal Engine.
 image:https://media.discordapp.net/attachments/847909063542833192/847916402907021363/unknown.png[image]
 
-*10)* Save All.
-
-image:https://media.discordapp.net/attachments/847909063542833192/847916469316485120/unknown.png[image]
-
-*11)* `File` → `Cook Content For Windows`. +
+*10)* Save all and select `File` → `Cook Content For Windows`. +
 *12)* Get your cooked animation file in your project like shown in previous guides. (For example mine was DBDproject\Saved\Cooked\WindowsNoEditor\DBDproject\Content\Characters\Campers\Common\Animation\Male\AnimSequences\Gestures\M_PointTo) +
 *13)* Replace in your DBD folder.
 
