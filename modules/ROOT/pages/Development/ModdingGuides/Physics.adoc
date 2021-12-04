@@ -13,7 +13,7 @@ To use this guide for Blender, you must install the Better Fbx Importer & Export
 
 *1)* Import your model into Unreal Engine. +
 *2)* Make sure Create Physics Asset is checked. +
-*3)* If your model is already imported simply right click your mesh and navigate to Create>Physics Asset>Create and Assign.
+*3)* If your model is already imported simply right click your mesh and navigate to `Create` → `Physics Asset` → `Create and Assign`.
 
 image:https://media.discordapp.net/attachments/837429960196751396/837461719185358889/FBX_Import_Settings.png[image]
 
@@ -82,7 +82,7 @@ image:https://media.discordapp.net/attachments/837429960196751396/83747744078351
 == Part 5: Cooking your assets
 
 *1)* Replace the mesh as you would normally. The physics asset can be anywhere as long as you copy it over. +
-*2)* Save all and select File > Package Project > Windows > Windows (64-bit)
+*2)* Save all and select `File` → `Cook Content For Windows`.
 
 If all went well your mesh should have physics ingame now! 
 
