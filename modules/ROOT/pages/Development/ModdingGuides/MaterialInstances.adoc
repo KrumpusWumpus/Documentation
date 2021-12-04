@@ -8,7 +8,7 @@ This guide will show you how to create custom material instances in Dead By Dayl
 
 == Part 1: Importing the materials into your Unreal Project
 
-Download the materials then extract the Content folder into your project's Content folder. Be sure that the path in Unreal Engine is Content > ECT, not Content > Content > EC.
+Download the materials then extract the Content folder into your project's Content folder. Be sure that the path in Unreal Engine is `Content` → ETC, not `Content` → `Content` → ETC.
 
 video::https://cdn.discordapp.com/attachments/908765177644724294/909137455385563206/Desktop_2021.11.12_-_17.04.57.04.mp4[video]
 

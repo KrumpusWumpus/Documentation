@@ -45,9 +45,9 @@ image:https://media.discordapp.net/attachments/847909063542833192/84791260727227
 Mixamo is a source for free and easy to use animations. This makes it incredibly easy to choose an animation and port it to DBD. +
 Scroll to method 2 for creating your own animations.
 
-*1)* Go to File > Export and choose BetterFBX (DO NOT USE THE NORMAL FBX EXPORT) +
+*1)* Go to `File` → `Export` and choose BetterFBX (DO NOT USE THE NORMAL FBX EXPORT) +
 Keep it at default settings. (Remember if you unchecked scale down when importing set export scale to 1 and if you left it checked set it to 100) +
-For 3ds Max go to File > Export and choose Export... Leave at default settings. +
+For 3ds Max go to `File` → `Export` and choose Export... Leave at default settings. +
 *2)* Go to Mixamo.com and create an account. +
 *3)* After creating an account, go to the Animations tab.
 
@@ -68,9 +68,9 @@ https://youtu.be/mXz-2j5n-T4[3ds Max Example]
 
 https://www.youtube.com/watch?v=6Km2COZGYA0[Blender Example]
 
-*1)* Go to File > Export and choose BetterFBX (DO NOT USE THE NORMAL FBX EXPORT) +
+*1)* Go to `File` → `Export` and choose BetterFBX (DO NOT USE THE NORMAL FBX EXPORT) +
 Keep it at default settings. (Remember if you unchecked scale down when importing set export scale to 1 and if you left it checked set it to 100) +
-For 3ds Max go to File > Export and choose Export... Leave at default settings.
+For 3ds Max go to `File` → `Export` and choose Export... Leave at default settings.
 
 == Part 3: Cooking in Unreal Engine
 
@@ -112,21 +112,17 @@ The mesh and physics asset can be ignored, you dont have to do anything with the
 .Opening the animation file lets you preview it in Unreal Engine.
 image:https://media.discordapp.net/attachments/847909063542833192/847916402907021363/unknown.png[image]
 
-*10)* Save All.
-
-image:https://media.discordapp.net/attachments/847909063542833192/847916469316485120/unknown.png[image]
-
-*11)* File > Cook Content For Windows. +
+*10)* Save all and select `File` → `Cook Content For Windows`. +
 *12)* Get your cooked animation file in your project like shown in previous guides. (For example mine was DBDproject\Saved\Cooked\WindowsNoEditor\DBDproject\Content\Characters\Campers\Common\Animation\Male\AnimSequences\Gestures\M_PointTo) +
 *13)* Replace in your DBD folder.
 
 == Part 4: Increase animation length (OPTIONAL)
 
 *1)* Download https://cdn.discordapp.com/attachments/838158112749781000/853702841272238111/Asset_Editor_v1.0.3.exe[Helios' Asset Editor]. +
-*2)* Open the AssetEditor.exe and go to File > Open. +
+*2)* Open the AssetEditor.exe and go to `File` → `Open`. +
 *3)* Go to your DBD game files, and navigate to the montage file .uasset for your animation. +
 For example, if I was putting an animation over M_PointTo, I would open AM_M_PointTo.uasset in Content\Characters\Campers\Common\Animation\Male\Montage. +
-*4)* With your montage opened, navigate to Blocks > Block 1 > AnimMontage. +
+*4)* With your montage opened, navigate to `Blocks` → `Block` 1 → `AnimMontage`. +
 *5)* Check the value of the SequenceLength and remember that number (or write it down).
 
 image:https://media.discordapp.net/attachments/847909063542833192/847922908113928203/unknown.png[image]
@@ -159,7 +155,7 @@ image:https://media.discordapp.net/attachments/847909063542833192/84858984033720
 
 image:https://cdn.discordapp.com/attachments/847909063542833192/848590148512907305/unknown.png[image]
 
-.If you dont have the Details tab, go to Windows > Details and make sure it is checked.
+.If you dont have the Details tab, go to `Windows` → `Details` and make sure it is checked.
 image:https://cdn.discordapp.com/attachments/847909063542833192/848590260987756554/unknown.png[image]
 
 *5)* Select your sound and add it!

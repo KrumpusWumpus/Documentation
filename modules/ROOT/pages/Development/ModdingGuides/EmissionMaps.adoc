@@ -13,7 +13,7 @@ This guide will show you how to change the values of emission maps, such as the 
 image:https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png[image]
 
 *2)* Find a material with an EM map and export it with ctrl + x. +
-*3)* Find the exported material and open the props.txt file. You can find where it exported in Umodel by going to Tools > Open export folder.
+*3)* Find the exported material and open the props.txt file. You can find where it exported in Umodel by going to `Tools` → `Open export folder`.
 
 image:https://images-ext-1.discordapp.net/external/wL-IQOvWwgF45izD7s5F6b3utOfQwoYrdTJubwTwEaI/https/media.discordapp.net/attachments/797628786530713621/797634032007381062/unknown.png[image]
 
@@ -67,7 +67,7 @@ In my case, I am changing the Single (float32) at the right from a 1 to a 0.
 image:https://images-ext-1.discordapp.net/external/xpKyGtXeE2QS4NFh3tZQgOReDM6zUQNC0gbwYsytLoY/https/media.discordapp.net/attachments/797628786530713621/797643454112595999/unknown.png[image]
 
 *13)* Ctrl + F for the next value (blue) and repeat the above steps. Make sure to select forward. You do not need to go up any lines, keep your selection where it is. +
-*14)* File > Save +
+*14)* `File` → `Save`. +
 Your uasset is now edited with custom EM color values, a backup of the original uasset is automatically created as the .bak file. Just remove the .bak file ending to bring back the original.
 
 image:https://images-ext-2.discordapp.net/external/OyhwolHWHYom6zBju6PYbDGrKOTIKLq1dJk6VJ4X70Q/%3Fwidth%3D786%26height%3D779/https/media.discordapp.net/attachments/797628786530713621/797646327818223616/unknown.png[image]
@@ -84,7 +84,7 @@ https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zcc
 
 image:https://images-ext-1.discordapp.net/external/nc-rKHShhCVvNIXDkrO6VvEjdmUj6UB4Ed-saZXMbLM/https/media.discordapp.net/attachments/797628786530713621/797649544213037106/unknown.png[image]
 
-*3)* Find the exported texture and open it in your photo editing software of choice (Paint.net, Gimp, and Photoshop all work well.) You can find where it exported in Umodel by going to Tools > Open export folder. +
+*3)* Find the exported texture and open it in your photo editing software of choice (Paint.net, Gimp, and Photoshop all work well.) You can find where it exported in Umodel by going to `Tools` → `Open export folder`. +
 *4)* Edit the texture with a side-by-side view of the original for comparison on where to paint.
 
 image:https://images-ext-2.discordapp.net/external/J-g_KPyoaZSUIu2hgVYZgyWzO2LZtYhl3QefPWGN3NQ/https/media.discordapp.net/attachments/797628786530713621/797658686205460520/unknown.png[image]

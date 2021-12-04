@@ -17,7 +17,7 @@
 image:https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png[image]
 
 *5)* Find a static mesh you want to replace. Open the static mesh and export it with ctrl + x. Keep default settings. + 
-*6)* Find the exported static mesh. You can find where it exported in Umodel by going to Tools > Open export folder. +
+*6)* Find the exported static mesh. You can find where it exported in Umodel by going to `Tools` → `Open export folder`. +
 
 == Part 2: Replacing the Mesh
 
@@ -29,7 +29,8 @@ image:https://media.discordapp.net/attachments/797525681608982538/79753269581014
 
 image:https://media.discordapp.net/attachments/797525681608982538/797532879785164850/unknown.png[image]
 
-*3)* File > Import > Skeleton Mesh .psk (Make sure you have this https://github.com/Befzz/blender3d_import_psk_psa[plugin] installed. Instructions are on the GitHub repository.) +
+*3)* `File` → `Import` → `Skeleton Mesh .psk`. +
+(Make sure you have the Psk/Psa Import/Export plugin installed. Instructions are on the GitHub repository.) +
 *4)* Find your exported psk and import it. Make sure scale down is checked when importing. 
 
 image:https://media.discordapp.net/attachments/797525681608982538/797533575528185866/unknown.png[image]
@@ -51,7 +52,7 @@ You should now have your material looking like this. You may have multiple mater
 
 image:https://media.discordapp.net/attachments/797528664535072779/797583511967367199/unknown.png[image]
 
-*7)* Add > Search > Image Texture.
+*7)* `Add` → `Search` → `Image Texture`.
 
 .This node will appear
 image:https://media.discordapp.net/attachments/797525681608982538/797534561285701672/unknown.png[image]
@@ -75,7 +76,7 @@ image:https://media.discordapp.net/attachments/797525681608982538/79753565403558
 
 *12)* Now, feel free to edit the model to your heart's content. If you need help using Blender feel free to look up plenty of tutorials online.
 
-*13)* When you're done editing, Export > Export as FBX.
+*13)* When you're done editing, `Export` → `Export as FBX`.
 
 == Part 3: Cooking in Unreal Engine
 
@@ -98,4 +99,4 @@ I have the mesh, the material for the car, the base texture of the car, and my m
 
 image:https://media.discordapp.net/attachments/797525681608982538/797552959176179752/unknown.png[image]
 
-*7)* Save all and select File > Package Project > Windows > Windows (64-bit)
+*7)* Save all and select `File` → `Cook Content For Windows`.
