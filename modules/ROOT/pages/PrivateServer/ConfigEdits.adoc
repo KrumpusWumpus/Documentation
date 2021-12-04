@@ -40,3 +40,4 @@ The following console variables can be added below the `[Windows DeviceProfile]`
 | dbd.UnlockAllCustomizationItems | Unlock all customization items.
 
 | r.dbd.HideAllHUD | Hides all HUD components.
+|===

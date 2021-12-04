@@ -1,5 +1,5 @@
 name: deadbydaylight-modding
-title: Dead by Daylight Modding Documentation
+title: Dead By Daylight Modding Documentation
 version: latest
 nav:
   - modules/ROOT/nav.adoc

@@ -1,5 +1,5 @@
 site:
-  title: Dead by Daylight Modding Documentation
+  title: Dead By Daylight Modding Documentation
   start_page: deadbydaylight-modding::index.adoc
   url: http://localhost:8000
 
