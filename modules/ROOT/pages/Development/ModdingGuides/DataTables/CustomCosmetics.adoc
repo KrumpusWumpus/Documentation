@@ -8,7 +8,7 @@ This guide assumes you have the necessary template project installed.
 ====
 
 *Prerequisites* +
-▪︎ https://www.audiokinetic.com/download/[DBD Template Project]
+▪︎ https://github.com/ModByDaylight/Documentation/tree/master/modules/ROOT/attachments/TemplateProject.zip[DBD Template Project]
 
 *1)* Navigate to /Content/Data/ (or any subdirectory of /Data/ of your choosing, you can even create new directories) and right click to create a new data table asset.
 

@@ -69,9 +69,3 @@ For example, mine would be Content\Characters\Campers\Nea\Textures\Outfit009
 image:https://images-ext-1.discordapp.net/external/y4GRIeCnHIvaz5qqeVeyJd0tOq03Ms-odld4qAJsR6E/https/media.discordapp.net/attachments/833812099263627335/833853498093338645/unknown.png[image]
 
 *5)* Place the texture where the original was in DBD and replace all.
-
-Congrats!
-
-image:https://images-ext-1.discordapp.net/external/sefwHKoPdCysn-ChsnGgm3h3A3WmAlkdnWXOP-fVPcI/https/media.discordapp.net/attachments/788081160328183858/797910592035225600/unknown.png[image]
-
-You can do the same thing for the flashlight beam color by editing MI_FlashLightBeam_01 and MI_FlashLightBeam_02 (Content/Effects/Materials). It is kind of tedious because there are numerous values to replace.
