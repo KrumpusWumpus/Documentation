@@ -3,7 +3,8 @@
 This guide will be written for Blender, but it can be followed very easily in the same way with 3ds Max.
 
 *Prerequisites* +
-▪︎ https://www.unrealengine.com/en-US/download[Unreal Engine] (4.25.4 for Live, 4.21.2 for Dev Build)
+▪︎ https://www.unrealengine.com/en-US/download[Unreal Engine] (4.25.4 for Live, 4.21.2 for Dev Build) +
+▪︎ https://cdn.discordapp.com/attachments/797693369307496498/909972913766150144/anim-newfix.7z[Animation Fix]
 
 *For Blender Users:* +
 ▪︎ https://blendermarket.com/products/better-fbx-importer--exporter[Better Fbx Importer & Exporter] +
@@ -77,7 +78,7 @@ For 3ds Max go to File > Export and choose Export... Leave at default settings.
 
 image:https://media.discordapp.net/attachments/847909063542833192/847915478165094420/unknown.png[image]
 
-*2)* Download the https://cdn.discordapp.com/attachments/797693369307496498/909972913766150144/anim-newfix.7z[animation fix], then extract the content folder into your Unreal project. 
+*2)* Extract the animation fix content folder into your Unreal project. 
 
 video::https://cdn.discordapp.com/attachments/847909063542833192/847915716069163073/ExtractingIntoProject.mp4[video]
 
