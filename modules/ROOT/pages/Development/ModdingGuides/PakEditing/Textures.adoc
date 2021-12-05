@@ -1,17 +1,24 @@
-= Custom Textures Guide
+= Custom Textures Guide - Pak Editing
 
-This guide will show you how to replace textures in Dead By Daylight.
+This guide will show you how to replace textures with pak editing in Dead By Daylight.
 
 *Prerequisites* +
+▪︎ https://mh-nexus.de/en/hxd/[Hxd] +
 ▪︎ https://www.gildor.org/en/projects/umodel[UModel] +
-▪︎ https://www.unrealengine.com/en-US/download[Unreal Engine] (4.25.4 for Live, 4.21.2 for Dev Build) +
+▪︎ https://www.unrealengine.com/en-US/download[Unreal Engine] (4.25.4 for Live) +
 ▪︎ Image editor (Photoshop, GIMP, paint.net, etc)
+
+*Limitations* +
+▪︎ Only anywhere from 1-3 textures can be changed per pak file without EAC prompting errors. +
+▪︎ There can be some rendering issues with the textures in the distance. +
+▪︎ PAKs need to be redone every update, so it's advised you share the UBULKs, not the pak files. +
+▪︎ Small visual artifacts depending on graphics settings. (can be fixed)
 
 == Part 1: Exporting from Dead By Daylight
 
 *1)* Open UModel. +
 *2)* Set the path to game files as the base of your Dead By Daylight files. +
-*3)* Check override game detection and select Unreal engine 4, Unreal engine 4.25.4 for Live, 4.21.2 for Dev Build. +
+*3)* Check override game detection and select Unreal Engine 4.25. +
 *4)* Leave all other settings at default and select OK.
 
 image:https://images-ext-2.discordapp.net/external/aHO1nQ_Mz4-lg48MPivnC5yDjQMqIMH7zccCU9q3kbQ/https/media.discordapp.net/attachments/833812099263627335/833852232449261578/unknown.png[image]
@@ -63,9 +70,30 @@ image:https://images-ext-1.discordapp.net/external/beIqlhChCrAprzE9dLFZD0uQm66c2
 
 *2)* Go to Saved\Cooked\WindowsNoEditor. +
 *3)* You should now see a folder with the name of your project. Open that folder, and now follow the directory to where you saved your texture. +
-For example, mine would be Content\Characters\Campers\Nea\Textures\Outfit009. +
-*4)* Copy the texture you cooked in that path. Preferably save it somewhere and make it easy to know what it is and where it should go.
+For example, mine would be Content\MyNeaSkin. +
+*4)* Copy the *ubulk* (forget about the other files) you cooked in that path. Preferably save it somewhere and make it easy to know what it is and where it should go.
 
-image:https://images-ext-1.discordapp.net/external/y4GRIeCnHIvaz5qqeVeyJd0tOq03Ms-odld4qAJsR6E/https/media.discordapp.net/attachments/833812099263627335/833853498093338645/unknown.png[image]
+image:https://images-ext-1.discordapp.net/external/wuz_8oJx7JTirep365VHqApifINvEofG8-t0icMTU48/https/media.discordapp.net/attachments/874362894605766666/875076901838921738/unknown.png[image]
 
-*5)* Place the texture where the original was in DBD and replace all.
+*5)* Open HxD. +
+*6)* Open the ubulk of your modified texture you just cooked, then open the ubulk of the original texture you saved in UModel earlier. +
+*7)* Next you must open the pak file where the texture you're modifying is stored. +
+*8)* With everything opened, HxD should look something like this:
+
+image:https://images-ext-2.discordapp.net/external/APKhdwBg7GbWSwd91IbJRHUi2WVSMw7r3P3x2Szj1dY/https/media.discordapp.net/attachments/874362894605766666/875076973972582400/unknown.png[image]
+
+*9)* Select the first few lines of the original ubulk you saved from UModel, then go to the .pak, ctrl +f to search and switch to hex search. Paste in what you copied and begin search. Afterwards, it should find the information in the .pak. Click the beginning of the selection so you are at the start.
+
+image:https://media.discordapp.net/attachments/874362894605766666/875077064208822272/ezgif.com-gif-maker_1.gif[image]
+
+*10)* With your pak file open and your selection at the start of the search, press CTRL + E, select Length, and paste in 2AA000 and then press OK. +
+*11)* CTRL + A all the contents of your custom ubulk, copy, and then go back to the pak and paste. If all went well, you should start replacing. If you get a prompt to change file size, you did something wrong.
+
+image:https://images-ext-1.discordapp.net/external/NnjyT8_2ea6ApxUvuEtFzSXk7Q1823BigdTaWx8PO-c/https/media.discordapp.net/attachments/874362894605766666/875077128524283904/ezgif.com-gif-maker.gif[image]
+
+*12)* There are small visual artifacts when using pak edited textures on Low or Medium or High. Using Ultra will mostly correct this. If you want to stay on lower settings but fix this issue, continue following the steps below. +
+*13)* Press Windows Key + R and paste in %localappdata%\DeadByDaylight\Saved\Config\WindowsNoEditor. +
+*14)* Open "GameUserSettings.ini" and set "sg.TextureQuality" equal to 4. +
+*15)* Right click "GameUserSettings.ini", select Properties, check Read-Only, and Press OK.
+
+image:https://images-ext-1.discordapp.net/external/xfr-cZmRCu4unXScCtB1OGEHKjeYSk5Dwm4Bj_rw8XA/https/media.discordapp.net/attachments/874362894605766666/875077912368394280/unknown.png[image]

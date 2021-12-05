@@ -21,3 +21,6 @@
 *** xref:Development/ModdingGuides/DataTables/index.adoc[Data Tables]
 **** xref:Development/ModdingGuides/DataTables/CustomCosmetics.adoc[Custom Cosmetics]
 *** xref:Development/ModdingGuides/Blueprints.adoc[Blueprints]
+*** xref:Development/ModdingGuides/PakEditing/index.adoc[Pak Editing]
+**** xref:Development/ModdingGuides/PakEditing/Textures.adoc[Textures]
+**** xref:Development/ModdingGuides/PakEditing/Sounds.adoc[Sounds]

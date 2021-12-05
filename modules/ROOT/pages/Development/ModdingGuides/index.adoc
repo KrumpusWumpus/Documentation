@@ -9,7 +9,7 @@ If you’re just looking to play Dead By Daylight with mods, check out how to in
 == Resources
 
 - https://www.unrealengine.com/en-US/download[Unreal Engine] - Used to cook assets that the game can read.
-- https://www.gildor.org/en/projects/umodel[Umodel] - Used to view and export textures, models, animations, and more.
+- https://www.gildor.org/en/projects/umodel[UModel] - Used to view and export textures, models, animations, and more.
 - https://github.com/iAmAsval/FModel[FModel] - Beginner-friendly and open-source software for data-mining games made with Unreal Engine.
 - https://www.blender.org/download/[Blender] - Open source 3d modeling program.
 - https://github.com/Befzz/blender3d_import_psk_psa[Psk/Psa Import/Export] - Used to import psk & psa files into Blender.

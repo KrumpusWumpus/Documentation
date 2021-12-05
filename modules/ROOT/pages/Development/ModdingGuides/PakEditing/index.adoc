@@ -1,0 +1,3 @@
+= Pak Editing
+
+In this section, we will guide you through the process of editing pak files.

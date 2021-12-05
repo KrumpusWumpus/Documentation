@@ -15,7 +15,7 @@ This guide will be written for Blender, but it can be followed very easily in th
 
 == Part 1: Importing the Base Mesh
 
-*1)* Open Umodel. +
+*1)* Open UModel. +
 *2)* Set the path to game files as the base of your Dead By Daylight files. +
 *3)* Check override game detection and select Unreal engine 4, Unreal engine 4.25.4 for Live, 4.21.2 for Dev Build. +
 *4)* Leave all other settings at default and select OK.
