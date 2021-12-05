@@ -13,7 +13,7 @@ content:
     ## Used for prod
     - url: https://github.com/ModByDaylight/Documentation.git
       branches: master
-      edit_url: '{web_url}/blob/{refname}/{path}'
+      edit_url: '{web_url}/blob/dev/{path}'
 
     ## Used for dev
     #- url: ./
