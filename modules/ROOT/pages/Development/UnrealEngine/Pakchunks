@@ -1,0 +1,53 @@
+= Making Pak in editor
+
+This will be a step by step guide on how to select certain assets in the ue4 editor and add them to a pak chunk with a sig file
+
+
+step 1: go to the top left and click editor preferences
+image:https://cdn.discordapp.com/attachments/798608209631772693/917025677151195146/unknown.png[image]
+
+step 2: go to the experimental tab
+
+image:https://cdn.discordapp.com/attachments/798608209631772693/917025839755968572/unknown.png[image]
+
+step 3: search allow chunk and check allow chunkid assignments
+
+image:https://cdn.discordapp.com/attachments/798608209631772693/917026008979374080/unknown.png[image]
+
+step 4: close that tab and go to project settings tab
+
+image:https://cdn.discordapp.com/attachments/798608209631772693/917026366304706591/unknown.png[image]
+
+step 5: go to packaging tab
+
+image:https://cdn.discordapp.com/attachments/798608209631772693/917026492821688320/unknown.png[image]
+
+step 6: search chunk and check generate chunks
+
+image:https://cdn.discordapp.com/attachments/798608209631772693/917027194079948840/unknown.png[image]
+
+step 7: search pak sign and check enable pak signing
+
+image:https://cdn.discordapp.com/attachments/798608209631772693/917028064637116446/unknown.png[image]
+
+step 8: select an asset you want to add to the pak and right click > asset actions > assign to chunk
+
+image:https://cdn.discordapp.com/attachments/798608209631772693/917028064637116446/unknown.png[image]
+
+step 9: select the number of the chunk you want it to be, press ok and save
+
+image:https://cdn.discordapp.com/attachments/798608209631772693/917028831544623125/unknown.png[image]
+
+(optional) step 9.5: you can remove the asset from certain chunks if you need to
+
+image:https://cdn.discordapp.com/attachments/798608209631772693/917029059177893888/unknown.png[image]
+
+step 10: go to file, package project, and click windows (64-bit), select a place to package it and let it process (the first time you package the project it will take a longer time than after the first time)
+
+image:https://cdn.discordapp.com/attachments/798608209631772693/917029554747482142/unknown.png[image]
+
+step 11. go to where you packaged your project and go to your paks folder (WindowsNoEditor\ project name here\ Content\Paks) 
+
+image:https://cdn.discordapp.com/attachments/798608209631772693/917030122362634300/unknown.png[image]
+
+now just drag the pak and sig file in of the chunk you want, and enjoy!
